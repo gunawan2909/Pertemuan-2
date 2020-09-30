@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="1200dp"
+        android:layout_height="600dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:src="@drawable/download" />
+
+    <TextView
+        style="@style/TextContent.Black"
+        android:layout_width="296dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/Loading"
+        android:textSize="40sp" />
+</RelativeLayout>
